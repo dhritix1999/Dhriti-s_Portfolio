@@ -40,7 +40,7 @@
     width:100%;
     height: 110vh;
     background-color:#161616;
-    background-image: url(/images/galaxy-background.jpg);
+    background-image: url(galaxy-background.jpg);
     background-attachment: fixed;
     box-sizing: border-box;
     display: flex;
@@ -101,7 +101,7 @@
    
    #contact-form{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
