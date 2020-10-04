@@ -1,0 +1,274 @@
+@charset "utf-8";
+#main{
+    padding:30px 50px;
+    position:relative;
+    width:100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 76%;
+   background-image: url("/images/main-dhriti.png");
+    background-color: #edf1fd;
+   }
+
+.name{
+    font-family: calibri;
+    width: 500px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%,-50%);
+   }
+   .name p:nth-child(1),.name .details{
+    color:#6c707c;
+    font-size: 24px;
+    padding-bottom: 15px;
+   }
+   .name h1{
+     font-family: "Roboto", "Helvetica", "Arial", sans-serif;;
+     font-size: 90px;
+    margin:0px;
+    color:#292929;
+    padding: 0px;
+    line-height: 80px;
+   }
+   
+   
+   
+   #about{
+    width:100%;
+    height: 110vh;
+    background-color:#161616;
+    background-image: url(/images/galaxy-background.jpg);
+    background-attachment: fixed;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+    position: relative;
+   }
+   .about-text{
+    font-family: calibri;
+    width: 50%;
+   }
+   .about-text h1{
+    font-size: 5rem;
+    color:#6b7fe7;
+   }
+   .about-text h2{
+    font-size: 3rem;
+    color:#FFFFFF;
+    font-weight: 400;
+   }
+   .about-text h1,h2{
+    margin: 0px;
+    padding: 0px;
+   }
+   .about-text p{
+    font-size: 1.3rem;
+    color:rgba(255,255,255,0.90);
+    padding-bottom: 30px;
+    
+   }
+   a.button{
+    border-radius: 20px;
+    border-style: solid;
+    padding: 6px 30px;
+    cursor: pointer;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    background-color:#6b7fe7;
+    border-color:#6b7fe7 ;
+    font-size: larger;
+    color: black;
+   }
+   a.button:hover{
+    background-color: #edf1fd;
+    transition: all ease 0.3s;
+   
+   }
+   
+   .about-model img{
+     width: 600px;
+     padding-right: 20px;
+   }
+   
+   
+   
+   
+   #contact-form{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   #contact-form form{
+    display: flex;
+    width: 70%;
+    height: 50vh;
+    background-color: #1A1A1A;
+    box-shadow: 2px 12px 20px rgba(0,0,0,0.2);
+    border: 1px solid rgba(255,255,255,0.01)
+   }
+    
+   .contact-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .contact-right{
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid rgba(255,255,255,0.08);
+   }
+   input[type=submit]{
+    width: 200px;
+    height: 50px;
+    background-color: #6b7fe7;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin-left: auto;
+    color:#1B1B1B;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+   }
+   .c-l-heading{
+    font-family: calibri;
+    color:#FFFFFF;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    
+   }
+   .f-name,.f-number{
+    display: flex;
+    flex-direction: column;
+    font-family: calibri;
+    
+   }
+   .f-name font,.f-number font{
+    color:#BFBFBF;
+    font-size: 22px;
+   }
+   .f-name input,.f-number input{
+    height: 30px;
+    width:250px;
+    border: none;
+    outline: none;
+    background-color:transparent;
+    border-bottom: 1px solid #929292;
+    color:#FFFFFF;
+    margin: 10px 0px;
+   }
+   .f-number input::placeholder,
+   .f-name input::placeholder{
+    opacity: 0.5;
+    letter-spacing: 1px;
+   }
+   .f-number input:focus,
+   .f-name input:focus{
+    border-bottom: 1px solid #17d1ac;
+    transition: all ease 0.5s;
+   }.message font{
+    font-size: 18px;
+    color:#4E4E4E;
+    font-family: calibri;
+    
+   }
+   .message{
+    margin: 20px;
+   }
+   .contact-right textarea{
+    width: 100% !important;
+    height: 320px !important;
+    border: none;
+    outline: none;
+    background-color:transparent;
+    box-sizing: border-box;
+    color:#EBEBEB;
+    font-size: 16px;
+   }
+   .contact-right textarea::placeholder{
+    color:#b8b8b8;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: calibri;
+   }
+   .contact-right button:active{
+    transform: scale(1.04);
+    transition: all ease 0.1s;
+   }
+
+   
+   
+ .social-icons a{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e6e3e3;
+    margin:20px 10px;
+    border-radius:50%;
+   }
+   .social-icons{
+    display: flex;
+    
+   }
+   .social-icons i,.social i{
+    color:#000000;
+   }
+   .social-icons a:hover{
+    background-color:#000000;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    transition:all ease 0.5s;
+   }
+   .social-icons a:hover i,
+   .social a:hover i{
+    color:#FFFFFF;
+    transition:all ease 0.5s;
+   }
+  
+   .social{
+    position: fixed;
+    top:50%;
+    right:0px;
+    transform:translateY(-50%);
+   }
+   .social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    margin:0px;
+    padding: 0px;
+    line-height:0px;
+    background-color:#FFFFFF;
+    border:1px solid #CBCBCB;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+   }
+   .social a:hover{
+    background-color:#000000;
+    transition:all ease 0.5s;
+   }
+   .social i{
+    font-size:20px;
+    color:#2B2B2B;
+   }
+  

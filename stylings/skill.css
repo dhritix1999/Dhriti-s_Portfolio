@@ -1,0 +1,253 @@
+
+@charset "utf-8";
+
+
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.3em;
+    margin-block-end: 0em;}
+  
+    h2 {
+      display: block;
+      font-size: 2em;
+      margin-block-start: 0.8em;
+      margin-block-end: 0.3em;}
+  
+     .project-text{
+      margin: auto;
+      height: 20vh;
+      background-color:#edf1fd;
+      padding-top: 100px;
+    
+     }
+     .project-text h1{
+      font-size: 5rem;
+      color:#6b7fe7;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+     }
+     .project-text h2{
+        text-align: center;
+        font-size: 1.5rem;
+        color: rgb(35 53 120);
+        font-weight: 400;
+     }
+
+
+#services{
+    width:100%;
+   box-sizing: border-box;
+   font-family: calibri;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 40px ;
+   background-color: #edf1fd;
+   
+  }
+   
+  .skills{
+      color:#94a1e4 ;
+      text-align: center;
+      font-size: large;
+      padding-bottom: 15px;
+  }
+
+  .s-heading p{
+   color:rgba(255,255,255,0.30);
+   font-size: 1rem;
+   margin: 0px;
+   padding: 0px;
+  }
+  .s-heading{
+   text-align: center;
+   margin: 20px 0px;
+  }
+  .s-box{
+   background-color: #161616;
+   width:500px;
+   height: 525px;
+   margin: 20px;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+   position: relative;
+  }
+  .b-container{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   
+   
+  }
+  
+  .s-b-text{
+   width: 100%;
+   height: 30%;
+   background-color:#1E1E1E;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
+  .s-b-text a{
+   margin: 0px;
+   color:#FFFFFF;
+   font-size: 1.1rem;
+   font-family: calibri;
+   display: block;
+      display: -webkit-box;
+   max-width: 80%;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  
+  .s-type{
+   font-family: calibri;
+   color:#FFFFFF;
+   background-color: #151515;
+   padding: 10px 15px;
+   position: absolute;
+   top: 0px;
+   left: 50%;
+   transform: translateX(-50%);
+   font-size: 18px;
+   border-radius: 0px 0px 10px 10px;
+   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+  }
+  .s-box:hover{
+   transform:translateY(-10px);
+   transition: all ease 0.3s;
+   
+  }
+
+
+  .skills-area {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+  }
+  
+  .skill {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  .skill-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: aliceblue;
+  }
+  
+  .skill-bar {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    height: 25px;
+    z-index: -1;
+    border-radius: 100px;
+    position: absolute;
+  }
+  
+  .skill-fill {
+    background: rgb(143, 143, 241);
+    height: 25px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+  }
+  
+  .skill-percent {
+    font-size: 25px;
+  }
+  
+  .h-100 {
+    animation: h-90 2s;
+    width: 100%;
+  }
+
+  .h-90 {
+    animation: h-90 2s;
+    width: 90%;
+  }
+  
+  .h-80 {
+    animation: h-80 2s;
+    width: 80%;
+  }
+  
+  .h-70 {
+    animation: h-70 2s;
+    width: 70%;
+  }
+
+  .h-60 {
+    animation: h-60 2s;
+    width: 60%;
+  }
+
+  .h-50 {
+    animation: h-50 2s;
+    width: 50%;
+  }
+  
+  @keyframes h-100 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes h-90 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  }
+  
+  @keyframes h-80 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  
+  @keyframes h-70 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 70%;
+    }}
+
+    @keyframes h-60 {
+        from {
+          width: 0;
+        }
+        to {
+          width: 60%;
+        }
+  }
+   
+  @keyframes h-50 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 50%;
+    }
+  }
+  
